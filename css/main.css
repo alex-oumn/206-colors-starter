@@ -73,10 +73,16 @@ footer {
 
   #column-3 {
     background-color: #F4ACB7;
+    width: 100%;
   }
 
   footer {
     background-color: #9D8189;
+  }
+
+  .col-3 {
+    width: 50%;
+
   }
   
 }
@@ -86,22 +92,34 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: #FFBE0B;
+
   }
 
   #column-1 {
     background-color: #FB5607;
+
   }
 
   #column-2 {
     background-color: #FF006E;
+
   }
 
   #column-3 {
     background-color: #8338EC;
+    width: 33.3%;
+
   }
 
   footer {
     background-color: #3A86FF;
   }
+
+  .col-3 {
+    width: 33.3%;
+  }
    
 }
+
+/*------- They basically put a class separately on ALL the columns as one class and different IDs on each class- check the html section you will
+see how it looks. This seems to be the easiest way to complete this task with minimal code--------*/
